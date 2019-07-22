@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+
+       
         .footer-nav-link {
 
             color: #BBB;
@@ -30,7 +32,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <header id="main-header" data-height-onload="84" data-height-loaded="true" data-fixed-height-onload="84">
             <div class="clearfix et_menu_container my-4 sticky-top">
@@ -47,13 +49,13 @@
 
         <div class="row">
 
-            <div class="col-12">
+            <div class="col-12 p-0">
 
-                <div class="carousel-caption">
+                <!-- <div class="carousel-caption">
                     <h1
                         style="font-size: 72px; color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                         Our Press Corner</h1>
-                </div>
+                </div> -->
                 <img style="width: 100%; z-index: 1" class="img-responsive" src="lukas-blazek-GnvurwJsKaY-unsplash.jpg"
                     alt="office corner">
             </div>
@@ -61,7 +63,7 @@
 
         <div class="row">
 
-            <div class="col-9 p-3">
+            <div class="col-8">
 
                 <h1><strong>Recent Press Releases</strong></h1>
 
@@ -137,13 +139,13 @@
 
 
 
-            <div class="col-3 mt-3 p-3" style="border: 2px solid #34beb4;">
+            <div class="col-4 mt-3 p-2" style="border: 2px solid #34beb4;">
 
-                <h3><strong>Brand Guidelines</strong></h3>
+                <h5 style="width: 100%;"><strong>Brand Guidelines</strong></h5>
 
                 <hr>
 
-                <img src="brand-guidelines.png" alt="brand guidelines">
+                <img src="brand-guidelines.png" alt="brand guidelines" style="width: 100%;">
                 <form method="get" action="brand_guidelines.zip">
                     <button class="btn btn-info btn-sm my-3" type="submit">Download</button>
                  </form>
@@ -154,23 +156,24 @@
                 <hr>
 
                 <h4 class="mb-3">Logos</h4>
+                <h6>(EPS, JPG, PNG)</h6>
 
-                <img src="logo-on-white.png" alt="logo on white background">
+                <img src="logo-on-white.png" alt="logo on white background" style="width: 100%;">
                 <form method="get" action="logo-on-white.zip">
                     <button class="btn btn-info btn-sm my-3" type="submit">Download</button>
                  </form>
 
-                <img src="logo-on-black.png" alt="logo on black background">
+                <img src="logo-on-black.png" alt="logo on black background" style="width: 100%;">
                 <form method="get" action="logo-on-black.zip">
                     <button class="btn btn-info btn-sm my-3" type="submit">Download</button>
                  </form>
 
-                <img src="logo-on-teal.png" alt="logo on teal background">
+                <img src="logo-on-teal.png" alt="logo on teal background" style="width: 100%;">
                 <form method="get" action="logo-on-teal.zip">
                     <button class="btn btn-info btn-sm my-3" type="submit">Download</button>
                  </form>
 
-                <img src="logo-black-white-only.png" alt="logo in only black and white">
+                <img src="logo-black-white-only.png" alt="logo in only black and white" style="width: 100%;">
                 <form method="get" action="logo-black-white-only.zip">
                     <button class="btn btn-info btn-sm my-3" type="submit">Download</button>
                  </form>
@@ -183,7 +186,7 @@
                 <br>
 
 
-                <img src="dave_photo.jpeg" alt="CEO photo">
+                <img class="img-responsive clearfix" style="width: 100%;" src="dave_photo.jpeg" alt="CEO photo">
 
                 
                 <form method="get" action="dave_mclennan.zip">
@@ -193,7 +196,7 @@
 
 
                 <p><strong>For media and press inquiries, please contact Dave McLennan at:</strong></p>
-                <p>Contact info</p>
+                <p style="width: 100%; font-size: 12px;">dave@exitnest.com</p>
 
                 <hr>
 
@@ -210,7 +213,7 @@
         </div>
 
         <div class="row">
-            <div class="col-9 p-3">
+            <div class="col-8 mt-2">
 
                 <h2>In The News</h2>
                 <br>
@@ -232,34 +235,29 @@
                 </ul>
 
             </div>
-            <div class="col-3 p-3">
+            <div class="col-4 mt-2 mx-0 p-0">
                 <h2>About ExitNest</h2>
 
-                <p>ExitNest is the world’s first cash buyer and investor search engine. And best of all, it’s free!
-                </p>
-                <p>
+                <p style="width: 100%;">ExitNest is the world’s first cash buyer and investor search engine. And best of all, it’s free!
+                <br>
+               <br>
                     You tell us what’s most important to you, and we’ll find you the best offers to fit your specific
                     needs, schedule and budget. Submit your home once, and you’ll receive multiple offers from our
                     network of qualified buyers within 24-72 hours.
-                </p>
-                <p>
+                <br>
+                <br>
                     Use our easy-to-read side by side comparison feature to compare dozens of options. Simply accept the
                     best offer and get paid.
-                </p>
-                <p>
+               <br>
+               <br>
                     Our experienced professionals provide you with all the information you need to get the best deal on
-                    your home— and to find a buyer you can trust. </p>
+                    your home— and to find a buyer you can trust.
                 </p>
 
             </div>
 
 
         </div>
-
-
-
-
-
 
 
 
@@ -268,46 +266,37 @@
 
     </div>
 
-    <footer class="" style="background-color: #2A3030;" id="main-footer">
 
 
 
-        <div id="et-footer-nav">
-            <div class="">
-                <ul id="menu-home" class="bottom-nav" style="list-style-type: none;">
-                    <li style="display: inline-block;" class="menu-item p-3"><a href="https://exitnest.com"
-                            class="footer-nav-link">Home</a></li>
-                    <li style="display: inline-block;" class="menu-item p-3"><a href="https://exitnest.com/house-survey"
-                            class="footer-nav-link">Get Offers</a></li>
-                    <li style="display: inline-block;" class="menu-item p-3"><a
-                            href="https://wp.exitnest.com/cashbuyerprofile/" class="footer-nav-link">Cash Buyers</a>
-                    </li>
-                    <li style="display: inline-block;" class="menu-item p-3"><a
-                            href="https://wp.exitnest.com/about-exitnest/" class="footer-nav-link">About
-                            ExitNest</a></li>
-                    <li style="display: inline-block;" class="menu-item p-3"><a href="https://wp.exitnest.com/blog/"
-                            class="footer-nav-link">Blog</a>
-                    </li>
-                    <li style="display: inline-block;" class="menu-item p-3"><a
-                            href="https://acl447.github.io/press-page/" class="footer-nav-link">Press</a>
-                    </li>
-                </ul>
+
+    <footer class="" style="background-color: #2A3030; width: 100%;" id="main-footer">
+            <div class="mx-4 py-2">
+                    <ul id="menu-home" class="bottom-nav" style="list-style-type: none;">
+                        <li style="display: inline-block;" class="menu-item p-3"><a href="https://exitnest.com"
+                                class="footer-nav-link">Home</a></li>
+                        <li style="display: inline-block;" class="menu-item p-3"><a href="https://exitnest.com/house-survey"
+                                class="footer-nav-link">Get Offers</a></li>
+                        <li style="display: inline-block;" class="menu-item p-3"><a
+                                href="https://wp.exitnest.com/cashbuyerprofile/" class="footer-nav-link">Cash Buyers</a>
+                        </li>
+                        <li style="display: inline-block;" class="menu-item p-3"><a
+                                href="https://wp.exitnest.com/about-exitnest/" class="footer-nav-link">About</a></li>
+                        <li style="display: inline-block;" class="menu-item p-3"><a href="https://wp.exitnest.com/blog/"
+                                class="footer-nav-link">Blog</a>
+                        </li>
+                        <li style="display: inline-block;" class="menu-item p-3"><a
+                                href="https://acl447.github.io/press-page/" class="footer-nav-link">Press</a>
+                        </li>
+                    </ul>
+                    </div>
+                
+            <div class="mx-4 px-5 py-4">
+                <div id="footer-info" class="" style="color: white; font-size: 15px; font-weight: normal;"><p>©2019 ExitNest - 515 E Grant St, STE 150 Phoenix, AZ 85004 | By Phone 833-948-6378 or Dial 83-EXITNEST</p></div>
             </div>
-        </div> <!-- #et-footer-nav -->
-
-
-        <div id="footer-bottom">
-            <div class="clearfix">
-                <div id="footer-info" class="ml-5" style="color: white; font-size: 15px; font-weight: normal;">©2018
-                    ExitNest
-                    -
-                    515 E Grant St, STE 150 Phoenix, AZ 85004 | By Phone 833-948-6378 or
-                    Dial
-                    83-EXITNEST</div>
-            </div>
-        </div>
+        
+        
     </footer>
-
 </body>
 
 </html>
